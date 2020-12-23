@@ -40,7 +40,7 @@ ActiveRecord::Schema.define(version: 2020_12_23_155817) do
     t.integer "vhs_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.boolean "current", default: false
+    t.boolean "current", default: true
   end
 
   create_table "vhs", force: :cascade do |t|

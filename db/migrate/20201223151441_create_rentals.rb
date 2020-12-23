@@ -4,7 +4,7 @@ class CreateRentals < ActiveRecord::Migration[5.2]
       t.integer :client_id
       t.integer :vhs_id
       t.timestamps
-      t.boolean :current, default: false
+      t.boolean :current, default: true
     end
   end
 end
