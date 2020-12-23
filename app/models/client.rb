@@ -10,4 +10,9 @@ class Client < ActiveRecord::Base
         # rental.update(current: false)
     end
 
+    def self.first_rental(name, home_address, vhs)
+        client_name = Client.create(name: name, home_address: home_address)
+        vhs_rental = Rental.create(client_id: client_name.id, vhs_id: vhs.id)
+    end
+
 end

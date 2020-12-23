@@ -83,7 +83,7 @@ Build the following functionality:
 
 ### `Client`
 **CREATE**
-- `Client.first_rental` - accepts and instance of arguments needed to create a new `Client` instance and a currently available `Vhs` instance (or, more difficult: a `Movie` instance or just a `Movie` title and on that basis chooses a currently available vhs); it creates a new `Client` instance and a new `Rental` instance with `current` set to true.
+- `Client.first_rental` - accepts an instance of arguments needed to create a new `Client` instance and a currently available `Vhs` instance (or, more difficult: a `Movie` instance or just a `Movie` title and on that basis chooses a currently available vhs); it creates a new `Client` instance and a new `Rental` instance with `current` set to true.
 
 
 **READ**
